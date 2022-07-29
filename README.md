@@ -20,5 +20,5 @@
    `$LaunchVBSPath` - Path to restman_launch_menu.vbs
 
     ```shell
-    cscript "$LaunchVBSPath" /BackendFolderPath:"$BackendFolderPath" /FrontendFolderPath:"$FrontendFolderPath" /ImageFolderPath:"$ImageFolderPath" /ServerIp:"$ServerIp"
+    cscript "$LaunchVBSPath\restman_launch_menu.vbs" /BackendFolderPath:"$BackendFolderPath" /FrontendFolderPath:"$FrontendFolderPath" /ImageFolderPath:"$ImageFolderPath" /ServerIp:"$ServerIp"
     ```

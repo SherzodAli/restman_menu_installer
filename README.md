@@ -3,7 +3,11 @@
 ### Первый запуск
 
 1. Скачайте [архив](https://github.com/SherzodAli/restman_menu_installer/archive/refs/heads/main.zip) с установщиком и разархивируйте
-2. Запустите файл `restman_first_install_menu.vbs` следущей командой: `cscript restman_first_install_menu.vbs`
+2. Запустите файл `restman_first_install_menu.vbs` следущей командой:
+
+   ```shell
+   cscript restman_first_install_menu.vbs
+   ```
 
 ### Повторный запуск
 

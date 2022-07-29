@@ -16,8 +16,9 @@
    `$BackendFolderPath` - Папка с Бэкендом  
    `$FrontendFolderPath` - Папка с Фронтендом  
    `$ImageFolderPath` - Папка с картинками  
-   `$ServerIp` - IP Сервера
+   `$ServerIp` - IP Сервера  
+   `$LaunchVBSPath` - Path to restman_launch_menu.vbs
 
     ```shell
-    cscript restman_launch_menu.vbs /BackendFolderPath:"$BackendFolderPath" /FrontendFolderPath:"$FrontendFolderPath" /ImageFolderPath:"$ImageFolderPath" /ServerIp:"$ServerIp"
+    cscript `$LaunchVBSPath` /BackendFolderPath:"$BackendFolderPath" /FrontendFolderPath:"$FrontendFolderPath" /ImageFolderPath:"$ImageFolderPath" /ServerIp:"$ServerIp"
     ```

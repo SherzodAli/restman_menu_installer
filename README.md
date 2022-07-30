@@ -9,7 +9,7 @@
     ```shell
     cscript restman_first_install_menu.vbs
     ```
-4. Создайте файл `menu_start.bat` со следующими параметрами и кодом
+4. Создайте файл `menu_start.bat` со следующими параметрами и кодом  
    `$BackendFolderPath` - Папка с Бэкендом  
    `$FrontendFolderPath` - Папка с Фронтендом  
    `$ImageFolderPath` - Папка с картинками  

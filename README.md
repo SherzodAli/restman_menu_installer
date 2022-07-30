@@ -9,6 +9,17 @@
     ```shell
     cscript restman_first_install_menu.vbs
     ```
+4. Создайте файл `menu_start.bat` со следующими параметрами и кодом
+   `$BackendFolderPath` - Папка с Бэкендом  
+   `$FrontendFolderPath` - Папка с Фронтендом  
+   `$ImageFolderPath` - Папка с картинками  
+   `$ServerIp` - IP Сервера  
+   `$LaunchVBSPath` - Path to restman_launch_menu.vbs
+
+    ```shell
+    cscript "$LaunchVBSPath\restman_launch_menu.vbs" /BackendFolderPath:"$BackendFolderPath" /FrontendFolderPath:"$FrontendFolderPath" /ImageFolderPath:"$ImageFolderPath" /ServerIp:"$ServerIp"
+    ```
+5. Добавьте файл `menu_start.bat` в Планировщик задач по [инструкции](https://stackhowto.com/how-to-run-batch-file-on-windows-startup/) (не забудьте выбрать или убрать ненужные опции)
 
 ### Повторный запуск
 
